@@ -1,0 +1,119 @@
+*{margin: 0;padding: 0;}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-area{
+    width: 497px;
+}
+
+.linkedin-logo{
+    margin-bottom: 42px;
+    display: flex;
+    justify-content: center;
+}
+
+.linkedin-logo i{
+    font-size: 46px;
+    color: #0077B5;
+
+}
+
+
+.title h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #11175D;
+    font-size: 34px;
+    margin-bottom: 11px;
+}
+
+.title{
+    margin-bottom: 51px;
+    text-align: center;
+}
+
+.title p{
+    font-family: 'Nunito', sans-serif;
+    color: #11175D;
+    font-size: 21px;
+}
+
+.form-group{
+    position: relative;
+    margin-bottom: 42px;
+}
+
+.form-group:last-child{
+    margin-bottom: 50px;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+form label{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #11175D;
+    font-size: 21px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+    transition: .4s;
+    pointer-events: none;
+}
+
+form input:focus ~ label, 
+form input:valid ~ label{
+    top:0;
+    font-size: 14px;
+    background: #fff;
+    padding-left: 27px;
+    padding-right: 80px;
+}
+
+form input{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #11175D;
+    font-size: 21px;
+    border-radius: 9px;
+    border: 1.5px solid #11175D;
+    width: 100%;
+    padding: 27px 0;
+    padding-left: 70px;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+form button[type="submit"]{
+    background: #086FA4;
+    color: #fff;
+    width: 100%;
+    border-radius: 86px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 19px 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.form-area a{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #11175D;
+    font-size: 21px;
+    text-decoration: none;
+    text-align: center;
+    display:block;
+}
+.form-area a span{
+    color: #086FA4;
+}
